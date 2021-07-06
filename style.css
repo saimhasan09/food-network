@@ -8,6 +8,58 @@ body{
 .color{
     color: #6c68df;
 }
+a,p,li,button{
+    text-decoration: none;
+    
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-right: auto;
+    padding-left: 5%;
+}
+
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    ;
+    
+    
+}
+.nav-links li a{
+    margin: 0 15px;
+    color: rgb(65, 64, 64);
+}
+.button{
+    box-sizing: border-box;
+border: none;
+background-color: #7773db;
+margin-right: 20px;
+padding: 5px 15px;
+border-radius: 15px;
+cursor: pointer;
+font-weight: bold;
+
+}
+.button2{
+    margin-right: 4px;
+border: 1.5px solid  #2921c7;
+padding: 5px 10px;
+border-radius: 15px;
+cursor: pointer;
+font-weight: bold;
+text-align: center;
+}
+
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -18,7 +70,8 @@ body{
 .text-size{
     font-size: 50px;
     margin-bottom: 10px;
-    color: rgb(40, 40, 41);
+    color: rgb(31, 31, 32);
+    font-weight: bolder;
 }
 
 .decor{
@@ -112,4 +165,63 @@ color: rgb(87, 86, 86);
 }
 .box{
     box-shadow: 10px 0px 50px rgb(199, 198, 198);
+}
+footer{
+    background-color: #24262b;
+    padding: 70px;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row{
+    
+    display: flex;
+    
+}
+.column{
+    width: 55%;
+    padding: 0px 15px;}
+
+
+.column h4{
+    font-size: 18px;
+    color: rgb(235, 235, 235);
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+
+}
+
+
+.column .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    color: rgb(233, 231, 231);
+    background-color: #7773db;
+    margin: 0px 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    
+} 
+.column ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    padding-bottom: 5px;
+
+}
+.foot{
+    text-align: center;
+    color: rgb(236, 233, 233);
+    padding-top: 30px;
+    font-weight: 200;
 }
