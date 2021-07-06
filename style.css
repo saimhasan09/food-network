@@ -40,9 +40,9 @@ body{
     margin-top: 150px;
 }
 .about-me{
-background-image: url(shapes/Frame\ 56.jpg);
-background-repeat: no-repeat;
-background-size: 100%; 
+    background-image: url(shapes/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
 }
 .margin{
     margin-top: 15%;
@@ -71,8 +71,8 @@ background-size: 100%;
     font-weight: 200;
 }
 .bld{
-    border-radius: 10px;
     box-sizing:border-box;
+    border-radius: 10px;
     width: 40%;
     height: 450px;
     margin-left: 2%;
@@ -85,6 +85,31 @@ background-size: 100%;
     box-sizing: border-box; 
     border-radius: 10%;
     padding: 10px 10px 35px 10px;
-    width: 337px;
-    height: 256px;
+    width: 350px;
+    height: 280px;
+}
+.eating-time{
+padding-bottom: 12px;
+padding-left: 6px;
+font-size: 25px;
+color: rgb(54, 54, 54);
+}
+.eating-title{
+padding-left: 6px;
+color: rgb(87, 86, 86);
+}
+.h-font{
+    color:rgb(54, 54, 54) ;
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+
+}
+.p-font{
+    color:rgb(87, 86, 86) ;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+.box{
+    box-shadow: 10px 0px 50px rgb(199, 198, 198);
 }
