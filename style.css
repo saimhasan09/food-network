@@ -166,6 +166,17 @@ color: rgb(87, 86, 86);
 .box{
     box-shadow: 10px 0px 50px rgb(199, 198, 198);
 }
+.c-pad{
+    padding-top: 70px;
+}
+.Grow-h{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.c-food{
+    color: rgb(126, 126, 126);
+    padding-bottom: 25px;
+}
 footer{
     background-color: #24262b;
     padding: 70px;
