@@ -13,7 +13,7 @@ body{
     padding-left: 5%;
 }
 .half-width img{
-    width: 95%;
+    width: 98%;
 }
 .text-size{
     font-size: 50px;
@@ -38,4 +38,53 @@ body{
     display: flex;
     margin-bottom: 150px;
     margin-top: 150px;
+}
+.about-me{
+background-image: url(shapes/Frame\ 56.jpg);
+background-repeat: no-repeat;
+background-size: 100%; 
+}
+.margin{
+    margin-top: 15%;
+}
+.abt-margin{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.btn-margin{
+    margin-bottom: 50px;;
+}
+.p-margin{
+    margin-bottom: 35px;
+    margin-right: 10px;
+}
+.align{
+    text-align: center;
+}
+.recepi{
+    color: rgb(100, 100, 100);
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.rc-tex{
+    color: rgb(185, 182, 182);
+    font-weight: 200;
+}
+.bld{
+    border-radius: 10px;
+    box-sizing:border-box;
+    width: 40%;
+    height: 450px;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 10px 10px 50px rgb(199, 198, 198);  
+}
+.img-box{
+    box-sizing: border-box; 
+    border-radius: 10%;
+    padding: 10px 10px 35px 10px;
+    width: 337px;
+    height: 256px;
 }
