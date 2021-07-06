@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.color{
+    color: #6c68df;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 95%;
+}
+.text-size{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(40, 40, 41);
+}
+
+.decor{
+    margin-bottom: 30px;
+    color: rgb(41, 40, 40);
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(to left bottom, #2921c7,#7773db);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: rgb(236, 236, 236);
+    font-weight: 500px;
+}
+
+.flexiable-container{
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
